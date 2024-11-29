@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.loader {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: hsla(0, 100%, 95%, 1);
+  background: linear-gradient(90deg, hsla(0, 100%, 95%, 1) 1%, hsla(27, 100%, 85%, 1) 99%);
+  background: -moz-linear-gradient(90deg, hsla(0, 100%, 95%, 1) 1%, hsla(27, 100%, 85%, 1) 99%);
+  background: -webkit-linear-gradient(90deg, hsla(0, 100%, 95%, 1) 1%, hsla(27, 100%, 85%, 1) 99%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffe3e3", endColorstr="#FFD5B2", GradientType=1 );
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  animation: rotate 2.0s infinite linear;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+    </style>
+</head>
+<body>
+    <center>
+<div> <div class="loader"> </div> </div>
+    </center>
+</body>
+</html>
